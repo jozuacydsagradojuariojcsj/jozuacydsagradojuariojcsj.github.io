@@ -1,23 +1,31 @@
 body{
-    background: rgb(58,58,58);
+    background: rgb(24,24,36);
     color: white;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     margin: 0;
     padding: 0;
 }
-header{
-    background: black;
-    padding: 20px;
+#portfolio{
+    position: center;
+    
 }
-section{
+
+header{
+    background-image: linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));
+    font-size: medium;
+    
+    padding: 26px;
+}
+
+.top-section {
     background-color: white;
     color: gray;
     padding: 20px;
     display: flex;
-    
+    flex-direction: row-reverse;
 }
 div{
-    background-color: red;
+   
     width: 100px;
     margin: auto;
 }
@@ -29,6 +37,21 @@ ul{
 li{
     display: inline;
     margin: 0 20px 0 0;
+}
+li:first-child{
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-right: 1000px;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 footer{
     background: black;
