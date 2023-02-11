@@ -6,26 +6,90 @@ body{
     padding: 0;
 }
 #portfolio{
-    position: center;
+    width: 100px;
+    margin: auto;
     
+}
+.lower-section{
+    width: 100%;
+}
+.lower-section img{
+    width: 750px;
+    margin-top: 45px;
+    border-radius: 3px;
+    opacity: 85%;
+}
+.text{
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sen-bold.otf);
+    
+}
+@font-face {
+    font-family: parafont;
+    src: url(sen-regular.otf);
+}
+.text h1,h2{
+    font-family: myFirstFont;
+    margin-top: -20px;
+    margin-left: 705px;
+    font-size: 4vw;
+    color: rgb(255, 255, 255)
+}
+h3{
+    font-family: myFirstFont;
+    margin-top: -20px;
+    margin-left:706px ;
+    font-size: 4vw;
+    color: rgb(204, 200, 200);
+}
+p1,p2,p3{
+    font-family: parafont;
+    margin-left: 706px;
+    color:rgb(204, 200, 200) ;
+}
+#center-right{
+    position: absolute;
+    top: 20px;
+    right: 30px;
 }
 
 header{
-    background-image: linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));
+    background-image: linear-gradient(to right, rgba(89,33,230,255),rgba(114,34,231,255),rgba(137,33,231,255));
     font-size: medium;
-    
-    padding: 26px;
+    padding: 20px;
 }
 
 .top-section {
-    background-color: white;
     color: gray;
     padding: 20px;
     display: flex;
     flex-direction: row-reverse;
 }
-div{
+
+
+#block{
+    display: block;
+    position: absolute;
+    margin-right: 900px;
+    left: 0px;
+    margin-top: -20px;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+}
+#jcsj{
+    
+   width: 100px;
+   margin-left: 50px;
+   margin-top: 35px;
    
+}
+head{
     width: 100px;
     margin: auto;
 }
@@ -38,13 +102,7 @@ li{
     display: inline;
     margin: 0 20px 0 0;
 }
-li:first-child{
-    background-color: black;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    margin-right: 1000px;
-}
+
 
 
 a{
@@ -54,6 +112,6 @@ a:hover{
     text-decoration: underline;
 }
 footer{
-    background: black;
+   
     padding: 20px;
 }
