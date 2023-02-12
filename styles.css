@@ -26,12 +26,12 @@ body{
 }
 @font-face {
     font-family: myFirstFont;
-    src: url(sen-bold.otf);
+    src: url(fonts/sen-bold.otf);
     
 }
 @font-face {
     font-family: parafont;
-    src: url(sen-regular.otf);
+    src: url(fonts/sen-regular.otf);
 }
 .text h1,h2{
     font-family: myFirstFont;
@@ -84,7 +84,7 @@ header{
 }
 @font-face {
     font-family: jcsjfont;
-    src: url(AbadiMTCondensedExtraBold.ttf);
+    src: url(fonts/AbadiMTCondensedExtraBold.ttf);
 }
 #jcsj{
     font-family: jcsjfont;
