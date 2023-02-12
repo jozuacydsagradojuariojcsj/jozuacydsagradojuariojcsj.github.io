@@ -99,7 +99,7 @@ ul{
     list-style-type:none;
 }
 li{
-    display: inline;
+    position: relative;
     margin: 0 20px 0 0;
 }
 
@@ -108,8 +108,13 @@ li{
 a{
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
+
+
+li a:hover{
+    
+    background-color: rgba(81,33,229,255);
+    color: white;
+    
 }
 footer{
    
