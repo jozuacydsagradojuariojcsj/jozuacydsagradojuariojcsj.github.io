@@ -18,6 +18,7 @@ body{
     margin-top: 43px;
     border-radius: 3px;
     opacity: 85%;
+    margin-bottom: 20px;
 }
 .text{
     width: 100%;
@@ -120,9 +121,5 @@ a{
 li a:hover{
     background-color: rgba(81,33,229,255);
     color: white;
-    padding: 20px;
-}
-footer{
-   
     padding: 20px;
 }

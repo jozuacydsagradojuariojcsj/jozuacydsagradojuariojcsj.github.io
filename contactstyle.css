@@ -30,15 +30,15 @@ body{
 }
 
 .lower-section2{
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 10%;
+    width: 100%;    
+    margin-top: 5%;
 }
 .lower-section2 img{
     height: 250px;
     border-radius: 5px;
     margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 5%;
 }
 
 .text2{
@@ -47,25 +47,6 @@ body{
     margin-top: 5%;
     margin-left: 13%;
     margin-right: 2%;
-    text-align: justify;
-}
-
-.lower-section3{
-    width: 100%;
-    margin-top: 5%;
-}
-.lower-section3 img{
-    margin-left: 10px;
-    height: 250px;
-    border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-.text3{
-    width: 60%;
-    position: relative;
-    margin-top: -15%;
-    margin-left: 30%;
     text-align: justify;
 }
 
@@ -92,26 +73,11 @@ h3{
     font-size: 4vw;
     color: rgb(204, 200, 200);
 }*/
-.text p1,p2,p3,p4{
+#try1{
     font-family: parafont;
-    margin-left: 550px;
-    color:rgb(204, 200, 200) ;
-    font-size: large;
 }
-.text2 p5,p6,p7{
+#try2{
     font-family: parafont;
-    font-size: large;
-    color: rgb(204, 200, 200);
-}
-.text3 p8,p9,p10{
-    font-family: parafont;
-    font-size: large;
-    color: rgb(204, 200, 200);
-}
-#center-right{
-    position: absolute;
-    top: 20px;
-    right: 30px;
 }
 
 header{
