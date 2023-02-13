@@ -1,0 +1,185 @@
+body{
+    background: rgb(24,24,36);
+    color: white;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#portfolio{
+    width: 100px;
+    margin: auto;
+    
+}
+.lower-section{
+    width: 100%;
+}
+
+.lower-section img{
+    height: 250px;
+    margin-top: 43px;
+    border-radius: 5px;
+    opacity: 85%;
+}
+
+.text{
+    width: 108%;
+    position: relative;
+    margin-top: -15%;
+    margin-left: -20%;
+    text-align: justify;
+}
+
+.lower-section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+}
+.lower-section2 img{
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.text2{
+    width: 110%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 13%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.lower-section3{
+    width: 100%;
+    margin-top: 5%;
+}
+.lower-section3 img{
+    margin-left: 10px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.text3{
+    width: 60%;
+    position: relative;
+    margin-top: -15%;
+    margin-left: 30%;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/sen-bold.otf);
+    
+}
+@font-face {
+    font-family: parafont;
+    src: url(fonts/sen-regular.otf);
+}
+/*.text h1,h2{
+    font-family: myFirstFont;
+    margin-top: -20px;
+    margin-left: 705px;
+    font-size: 4vw;
+    color: rgb(255, 255, 255)
+}
+h3{
+    font-family: myFirstFont;
+    margin-top: -20px;
+    margin-left:706px ;
+    font-size: 4vw;
+    color: rgb(204, 200, 200);
+}*/
+.text p1,p2,p3,p4{
+    font-family: parafont;
+    margin-left: 550px;
+    color:rgb(204, 200, 200) ;
+    font-size: large;
+}
+.text2 p5,p6,p7{
+    font-family: parafont;
+    font-size: large;
+    color: rgb(204, 200, 200);
+}
+.text3 p8,p9,p10{
+    font-family: parafont;
+    font-size: large;
+    color: rgb(204, 200, 200);
+}
+#center-right{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+header{
+    background-image: linear-gradient(to right, rgba(89,33,230,255),rgba(114,34,231,255),rgba(137,33,231,255));
+    font-size: medium;
+    padding: 20px;
+}
+
+.top-section {
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+#block{
+    display: block;
+    position: absolute;
+    margin-right: 900px;
+    left: 0px;
+    margin-top: -20px;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+@font-face {
+    font-family: jcsjfont;
+    src: url(fonts/AbadiMTCondensedExtraBold.ttf);
+}
+#jcsj{
+   font-family: jcsjfont;
+   width: 200px;
+   margin-left: 10px;
+   margin-top: 10px;
+   font-size: 2vw;
+   color: white;
+   
+}
+head{
+    width: 100px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+li{
+    display: inline;
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+li a:hover{
+    background-color: rgba(81,33,229,255);
+    color: white;
+    padding: 20px;
+}
+footer{
+   
+    padding: 20px;
+}
